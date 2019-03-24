@@ -44,10 +44,11 @@ function myFunction(){
        else if ((sidea != sideb && sidea != sidec && sideb != sidec)||(sideb != sidea && sideb != sidec && sidea != sidec)||(sidec != sidea && sidec != sideb && sidea != sideb))  {
        triangleType = 'Scalene';
        }
+document.getElementById("myOutput").innerHTML = triangleType;
 
-
-
-
+  }
+  else {
+    document.getElementById("myOutput").innerHTML = 'Please enter all sides of the triangle';
   }
 }
 
