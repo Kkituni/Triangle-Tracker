@@ -11,7 +11,9 @@ Most importantly, if the sum of any two sides of the triangle is equal to or les
 
 As a user, I want to enter the length values of the three sides of my triangle in the application.
 After submitting my values, the application should tell me what type of triangle my values will produce, whether an isosceles, equilateral, scalene or NO triangle at all.
+
 OBJECTIVES
+
 The project will be evaluated based on the following objectives:
 
 The project uses one or more javascript functions.
@@ -24,6 +26,7 @@ The project demonstrates an understanding of the week's concepts. If requested, 
 
 
 Built With
+
 HTML - Provides the basic structure of site
 CSS - Used to control presentation, formatting, and layout
 JAVASCRIPT - Used to control the behavior of different elements.
