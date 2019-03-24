@@ -1,6 +1,18 @@
-.Classification{
-  float: left;
+body{
+  background-color: white;
 }
-.Tracker{
-  float: right;
+
+#container {
+   width:870px;
+   /*margin:0 auto;*/
+}
+#left_col {
+   float:left;
+   width:400px;
+   margin-left:5px;
+}
+#right_col {
+   float:right;
+   width:295px;
+   margin-left: 100 px;
 }
