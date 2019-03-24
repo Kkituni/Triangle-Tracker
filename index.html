@@ -4,54 +4,67 @@
     <meta charset="utf-8">
     <title>Triangle Tracker</title>
   </head>
-  <body>
-<h1>Triangle Classification</h1>
-<p>The basic elements of any triangle comprise its <i>sides</i> as well as its <i>angles.</i></p>
-<p>By considering their sides, triangles can be classified as follows:</p>
-<ol>
-  <li><i><b>Equilateral</b></i>: All three sides are equal.</li>
-  <img src="equilateral.png" alt="Equilateral triangle" width="200" height="200">
-    <p><i>Example of an Equilateral triangle</i></p>
-  <li><i><b>Isosceles</b></i>: Only two sides are equal.</li>
-  <img src="Isosceles.png" alt="Isosceles triangle" width="200" height="200">
-    <p><i>Example of an Isosceles triangle</i></p>
-  <li><i><b>Scalene</b></i>: All the three sides are different.</li>
-  <img src="scalene.png" alt="Scalene triangle" width="200" height="200">
-    <p><i>Example of a Scalene triangle</i></p>
-</ol>
-<h2>Triangle Tracker</h2>
+  <body
+    <div class="Triangle Classification">
 
-<p>Click the button to enter the three sides of the triangle.</p>
+      <h1>Triangle Classification</h1>
 
-<button onclick="myFunction()">Try it Out!</button>
+      <p>The basic elements of any triangle comprise its <i>sides</i> as well as its <i>angles.</i></p>
 
-<p id="myOutput"></p>
+      <p>By considering their sides, triangles can be classified as follows:</p>
 
-<script>
-function myFunction(){
-  var sidea = prompt("Please enter the first side ","");
-  var sideb = prompt("Please enter the second side ","");
-  var sidec = prompt("Please enter the third side ","");
+      <ol>
 
-  if (sidea != null && sideb != null && sidec != null) {
-      var triangleType = '';
-      if(sidea == sideb && sideb == sidec){
-          triangleType = 'Equilateral';
-        }
-        if((sidea == sideb && sideb != sidec)||(sidea == sidec && sidec != sideb) || (sideb == sidec && sidec!=sidea)){
-         triangleType = 'Isosceles';
-       }
-       else if ((sidea != sideb && sidea != sidec && sideb != sidec)||(sideb != sidea && sideb != sidec && sidea != sidec)||(sidec != sidea && sidec != sideb && sidea != sideb))  {
-       triangleType = 'Scalene';
-       }
-document.getElementById("myOutput").innerHTML = triangleType;
+        <li><i><b>Equilateral</b></i>: All three sides are equal.</li>
+        <img src="equilateral.png" alt="Equilateral triangle" width="200" height="200">
+          <p><i>Example of an Equilateral triangle</i></p>
+        <li><i><b>Isosceles</b></i>: Only two sides are equal.</li>
+        <img src="Isosceles.png" alt="Isosceles triangle" width="200" height="200">
+          <p><i>Example of an Isosceles triangle</i></p>
+        <li><i><b>Scalene</b></i>: All the three sides are different.</li>
+        <img src="scalene.png" alt="Scalene triangle" width="200" height="200">
+          <p><i>Example of a Scalene triangle</i></p>
 
-  }
-  else {
-    document.getElementById("myOutput").innerHTML = 'Please enter all sides of the triangle';
-  }
-}
+      </ol
 
-</script>
+
+  <div class="Triangle Tracker">
+    <h2>Triangle Tracker</h2>
+
+    <p>Click the button to enter the three sides of the triangle.</p>
+
+    <button onclick="myFunction()">Try it Out!</button>
+
+    <p id="myOutput"></p>
+
+    <script>
+    function myFunction(){
+      var sidea = prompt("Please enter the first side ","");
+      var sideb = prompt("Please enter the second side ","");
+      var sidec = prompt("Please enter the third side ","");
+
+      if (sidea != null && sideb != null && sidec != null) {
+          var triangleType = '';
+          if(sidea == sideb && sideb == sidec){
+              triangleType = 'Equilateral';
+            }
+            if((sidea == sideb && sideb != sidec)||(sidea == sidec && sidec != sideb) || (sideb == sidec && sidec!=sidea)){
+             triangleType = 'Isosceles';
+           }
+           else if ((sidea != sideb && sidea != sidec && sideb != sidec)||(sideb != sidea && sideb != sidec && sidea != sidec)||(sidec != sidea && sidec != sideb && sidea != sideb))  {
+           triangleType = 'Scalene';
+           }
+    document.getElementById("myOutput").innerHTML = triangleType;
+
+      }
+      else {
+        document.getElementById("myOutput").innerHTML = 'Please enter all sides of the triangle';
+      }
+    }
+
+    </script>
+
+  </div>
+
   </body>
 </html>
