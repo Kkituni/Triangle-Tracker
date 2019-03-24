@@ -6,6 +6,7 @@ For an equilateral triangle, all sides must be equal. For an isosceles triangle,
 As a user, I want to enter the length values of the three sides of my triangle in the application. After submitting my values, the application should tell me what type of triangle my values will produce, whether an isosceles, equilateral, scalene or NO triangle at all. 
 
 OBJECTIVES 
+
 The project will be evaluated based on the following objectives:
 
 The project uses one or more javascript functions. Appropriate control flows and logical operators are used in the project. The project makes use of one or more arrays in javascript. The project uses a HTML input to collect user data. The project uses a custom CSS stylesheet that incorporates cascading, box model and floats. The project works as expected, achieving the functionality required. The project demonstrates an understanding of the week's concepts. If requested, you should be able to explain your code to your instructor.
