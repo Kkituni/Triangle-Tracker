@@ -11,7 +11,9 @@ The project will be evaluated based on the following objectives:
 
 The project uses one or more javascript functions. Appropriate control flows and logical operators are used in the project. The project makes use of one or more arrays in javascript. The project uses a HTML input to collect user data. The project uses a custom CSS stylesheet that incorporates cascading, box model and floats. The project works as expected, achieving the functionality required. The project demonstrates an understanding of the week's concepts. If requested, you should be able to explain your code to your instructor.
 
-Built With HTML - Provides the basic structure of site CSS - Used to control presentation, formatting, and layout JAVASCRIPT - Used to control the behavior of different elements.
+Built With 
+
+HTML - Provides the basic structure of site CSS - Used to control presentation, formatting, and layout JAVASCRIPT - Used to control the behavior of different elements.
 
 Author Kelvin Kituni.
 
