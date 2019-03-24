@@ -3,16 +3,20 @@ body{
 }
 
 #container {
-   width:870px;
+   width:1000px;
    /*margin:0 auto;*/
 }
 #left_col {
    float:left;
    width:400px;
    margin-left:5px;
+   font-style: normal;
+   font-size: 20px;
 }
 #right_col {
    float:right;
-   width:295px;
-   margin-left: 100 px;
+   width:450px;
+   margin-left: 100px;
+   font-style: normal;
+   font-size: 20px;
 }
