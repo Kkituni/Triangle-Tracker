@@ -12,6 +12,8 @@ Most importantly, if the sum of any two sides of the triangle is equal to or les
 As a user, I want to enter the length values of the three sides of my triangle in the application.
 After submitting my values, the application should tell me what type of triangle my values will produce, whether an isosceles, equilateral, scalene or NO triangle at all.
 
+Link to the website: https://kkituni.github.io/Triangle-Tracker/
+
 OBJECTIVES
 
 The project will be evaluated based on the following objectives:
