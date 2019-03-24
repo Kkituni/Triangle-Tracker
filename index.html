@@ -33,7 +33,11 @@ function myFunction(){
   var sideb = prompt("Please enter the second side ","");
   var sidec = prompt("Please enter the third side ","");
 
-  
+  if (sidea != null && sideb != null && sidec != null) {
+      var triangleType = '';
+      if(sidea == sideb && sideb == sidec){
+          triangleType = 'Equilateral';
+        }
 
 
   }
