@@ -59,8 +59,17 @@
           if((sidea == sideb && sideb != sidec)||(sidea == sidec && sidec != sideb) || (sideb == sidec && sidec!=sidea)){
            triangleType = 'Isosceles';
          }
-         else if ((sidea != sideb && sidea != sidec && sideb != sidec)||(sideb != sidea && sideb != sidec && sidea != sidec)||(sidec != sidea && sidec != sideb && sidea != sideb))  {
-         triangleType = 'Scalene';
+         else if (sideb!==sidea && sideb!==sidec && sidea !==sidec)  {
+
+         if (sideb + sidec > sidea || sidec + sidea > sideb || sideb + sidea > sidec) {
+           if (sideb + sidec <=sidea || sidec + sidea <= sideb || sideb + sidea <= sidec) {
+
+            triangleType = 'Cannot form a triangle' ;
+           }
+           else {
+             triangleType = 'Scalene';
+           }
+         }
          }
   document.getElementById("myOutput").innerHTML = triangleType;
 
