@@ -1,9 +1,10 @@
 # Triangle-Tracker
-<<<<<<< HEAD
 
 Building an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
 Getting Started
 Based on the functionality of the application, key points to note are:
+
+BDD
 
 For an equilateral triangle, all sides must be equal.
 For an isosceles triangle, two sides are exactly equal.
